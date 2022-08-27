@@ -12,7 +12,5 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Install dependencies
-        run: make deps
       - name: Unit test
         run: make test
